@@ -1,0 +1,43 @@
+.cal{
+    margin: 100px calc(50% - 150px);
+}
+
+
+.cal-body {
+    display: flex;
+    
+    flex-wrap: wrap;
+    background-color: aquamarine;
+    min-height: 300px;
+    max-width: 350px;
+}
+
+.cal-head{
+    min-height: 80px;
+    max-width: 400px;
+    background-color: brown;
+}
+
+.nums{
+    background-color: blue;
+    color: aliceblue;
+    width: 70px; 
+    height: 70px;
+    margin: 5px; 
+}
+
+.plus , .minus , .multiplication , .division{
+    background-color: red;
+    color: aliceblue;
+    width: 70px; 
+    height: 70px;
+    margin: 5px; 
+}
+
+.clearb , .equals{
+    background-color: green;
+    color: aliceblue;
+    width: 70px; 
+    height: 70px;
+    margin: 5px; 
+}
