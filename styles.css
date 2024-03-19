@@ -5,11 +5,11 @@
 
 .cal-body {
     display: flex;
-    
     flex-wrap: wrap;
+    
     background-color: aquamarine;
     min-height: 300px;
-    max-width: 350px;
+    max-width: 400px;
 }
 
 .cal-head{
@@ -34,7 +34,7 @@
     margin: 5px; 
 }
 
-.clearb , .equals{
+.clearb , .equals {
     background-color: green;
     color: aliceblue;
     width: 70px; 
