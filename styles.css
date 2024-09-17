@@ -29,6 +29,7 @@ button{
 }
 
 input{
+    border-radius: 20px;
     overflow: hidden;
     font-weight: bolder;
     font-size: 40px;

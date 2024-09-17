@@ -7,7 +7,7 @@ function equate() {
     try {
         inputbar.value = eval(inputbar.value)
     } catch (error) {
-        inputbar.value = "error";
+        inputbar.value = "Error";
     }
 }
 
