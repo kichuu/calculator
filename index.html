@@ -3,13 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>calculator</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="cal">
-    <div class="cal-head"></div>
-    <div class="cal-body"></div>
+    <div class="calculator-body">
+        <input id="inputbar" type="text" readonly>
+        <div class="keys">
+            <button class="functional" onclick="appendTohtml('+')">+</button>
+            <button onclick="appendTohtml(1)">1</button>
+            <button onclick="appendTohtml(2)">2</button>
+            <button onclick="appendTohtml(3)">3</button>
+            <button class="functional" onclick="appendTohtml('-')">-</button>
+            <button onclick="appendTohtml(4)">4</button>
+            <button onclick="appendTohtml(5)">5</button>
+            <button onclick="appendTohtml(6)">6</button>
+            <button class="functional" onclick="appendTohtml('*')">*</button>
+            <button onclick="appendTohtml(7)">7</button>
+            <button onclick="appendTohtml(8)">8</button>
+            <button onclick="appendTohtml(9)">9</button>
+            <button class="functional" onclick="appendTohtml('/')">/</button>
+            <button onclick="clearinput()">C</button>
+            <button class="functional" onclick="equate()">=</button>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
