@@ -1,4 +1,5 @@
 const inputbar = document.querySelector("#inputbar")
+
 function appendTohtml(input){
     inputbar.value += input;
 }
